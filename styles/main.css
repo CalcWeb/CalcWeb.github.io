@@ -1,0 +1,64 @@
+body {
+          background-image:url("http://wallpapershome.com/images/pages/pic_v/249.jpg");
+          background-size:cover;
+}
+#p1 {
+         color:white;
+         font-weight:bold;
+         font-size:15px;
+         text-align:center;
+         
+         
+}
+h1 {
+          background-color:#FAFAD2;
+          background-size:cover;
+          border:1px solid black;
+          border-radius:5px;
+          padding-bottom:5px;
+          text-align:center;
+          text-decoration:underline;
+          text-shadow: 5px 2px 4px grey;
+}    
+table {
+          background-color:aqua;
+          border-radius:5px;
+          height:300px;
+          width:250px;
+}
+input {
+          height:35px;
+}
+.a1{
+          border-radius:4px;
+          width:225px;
+          font-family: 'ds-digital', sans-serif;
+          font-size:30px;
+}
+td {
+          text-align:center;
+}
+.p01 {
+          vertical-align:bottom;
+          text-align:center;
+          background-color:blue;
+          border:3px solid black;
+          color:white;
+          font-size:small;
+          border-radius:5px;
+}
+.btn {
+          font-weight:bold;
+          border-radius:10px;
+          background-color:#A2B0C2;
+          border-color:#A2B0C2;
+          height:25px;
+          width:40px;
+}
+.btn:active {
+          box-shadow: -3px 5px #666;
+}         
+.btn:hover {
+          background-color:#000080;
+          color:white;
+}   
