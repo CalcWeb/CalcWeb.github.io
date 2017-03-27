@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+    <head>
+     <link href="http://allfont.net/allfont.css?fonts=ds-digital" rel="stylesheet" type="text/css" />
+      <title>Online calculator</title>
+    </head>
+ <body>
+     <p id="p1"></p>
+      <script>
+       var name = prompt("Enter your name!");
+       if (name != null && name == "Biraj"){         
+       document.getElementById("p1").innerHTML = "Welcome again " + "Master!";
+       }
+       else if(name != null){
+document.getElementById("p1").innerHTML = "Welcome " + name + "!";
+       alert(name + ", thanks in advance for visiting!");
+}
+      </script>
+        <h1>Online Calculator</h1>
+   
+     <form Name="calc">
+      <table border=2 align="center"> 
+       <tr> 
+        <td colspan=4>
+         <input class="a1" type="text" name="answer" placeholder="Answer">
+        </td> 
+       </tr> 
+       
+       <tr> 
+        <td>
+         <input class="btn" type="button" value="1" OnClick="calc.answer.value+='1'">
+        </td> 
+        <td >
+        <input class="btn" type=button value="2" OnClick="calc.answer.value+='2'">
+        </td> 
+        <td>
+        <input class="btn" type=button value="3" OnClick="calc.answer.value+='3'">
+        </td>
+        <td>
+        <input class="btn" type=button value="+" OnClick="calc.answer.value+='+'">
+        </td> 
+        </tr>
+       
+       <tr> 
+        <td>
+        <input class="btn" type=button value="4" OnClick="calc.answer.value+='4'">
+        </td> 
+        <td>
+        <input class="btn" type=button value="5" OnClick="calc.answer.value+='5'">
+        </td> 
+        <td>
+        <input class="btn" type=button value="6" OnClick="calc.answer.value+='6'">
+        </td> 
+        <td>
+        <input class="btn" type=button value="-" OnClick="calc.answer.value+='-'">
+        </td> 
+       </tr> 
+       
+       <tr> 
+        <td>
+        <input class="btn" type=button value="7" OnClick="calc.answer.value+='7'">
+        </td> 
+        <td>
+        <input class="btn" type=button value="8" OnClick="calc.answer.value+='8'">
+        </td> 
+        <td>
+        <input class="btn" type=button value="9" OnClick="calc.answer.value+='9'">
+        </td> 
+        <td>
+        <input class="btn"type=button value="x" OnClick="calc.answer.value+='*'">
+        </td> 
+       </tr> 
+       
+       <tr> 
+        <td>
+        <input class="btn"type=button value="0" OnClick="calc.answer.value+='0'">
+        </td> 
+        <td>
+        <input class="btn" type=reset value="R">
+        </td> 
+        <td>
+        <input class="btn" type=button value="=" OnClick="calc.answer.value=eval(calc.answer.value)">
+        </td> 
+        <td>
+        <input class="btn"type=button value="÷" OnClick="calc.answer.value+='/'">
+        </td>
+       </tr> 
+      </table> 
+     </form>
+<p class ="p01" title="info">
+ <b>Created by <i>Biraj Patel</i>.</b>
+</p>
+ </body>       
+</html>
